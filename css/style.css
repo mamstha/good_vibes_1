@@ -85,15 +85,33 @@ p{
     color: #fff;
 }
 
-.container.hero-banner .row .hero-banner-text h1{
+.hero-banner .container .hero-banner-text .first-content{
+    position: relative;
+}
+
+.hero-banner .container .hero-banner-text .img1 {
+    position: absolute;
+    width: 100%;
+    top: 55px;
+    left: 342px;
+}
+
+.hero-banner .container .hero-banner-text .img2 {
+    position: absolute;
+    width: 100%;
+    top: 0px;
+    left: 1200px;
+}
+
+.hero-banner .row .hero-banner-text h1{
     margin-top: 112px;
 }
 
-.container.hero-banner .row .hero-banner-text p{
+.hero-banner .row .hero-banner-text p{
     margin-top: 52px;
 }
 
-.container.hero-banner .row .hero-banner-text .btn-group .btn{
+.hero-banner .row .hero-banner-text .btn-group .btn{
     margin-top: 36px;
     width: 200px;
     background-color: #9797DE;
@@ -101,33 +119,34 @@ p{
     border-radius: 32px;
     color: #fff;
     margin-right: 10px;
+    margin-bottom: 30px;
 }
 
-.container.hero-banner .row .btn-group .btn{
+.hero-banner .row .btn-group .btn{
     position: relative;
 }
 
-.container.hero-banner .row .btn-group .arrow{
+.hero-banner .row .btn-group .arrow{
     position: absolute;
     z-index: 1;
-    bottom: 7px;
+    bottom: 34px;
     right: 40px;
     color: #fff;
     font-size: 15px;
     font-weight: 600;
 }
-.container.hero-banner .row img{
+/* .hero-banner .row img{
     margin-top: 65px;
     width: 100%;
-}
+} */
 
-.container.hero-banner .row .social-icon{
+.hero-banner .row .social-icon{
     display: flex;
     justify-content: space-between;
     width: 25%;
     margin-bottom: 3%;
 }
- .container-fluid.ourfeature {
+.ourfeature {
     background-color: #FFFFFF;
     text-align: center;
     margin-top: 5%;
@@ -136,7 +155,7 @@ p{
     
 }
 
-.container-fluid.ourfeature .container .row h2{
+.ourfeature .container .row h2{
     padding-bottom: 5%;
 }
 
@@ -191,13 +210,13 @@ p{
     color: #fff;
 }
 
-.mobilesection {
+/* .mobilesection {
    background-color: #fff;
    background-image: url("../img/utilities/mock\ copy.png");
    background-position: center;
    background-repeat: no-repeat;
    background-size: 35%;
-}
+} */
 
 .mobilesection .container{
     padding-bottom: 5%;
@@ -208,8 +227,14 @@ p{
     padding-bottom: 2%;
 }
 
+.mobilesection .container .row .mobilesection-img{
+    position: absolute;
+}
+
 .mobilesection .mobilesection-text .case-1, .case-2{
     margin-top: 176px;
+    margin-left: 100px;
+
 }
 
 .mobilesection .mobilesection-text .case-1{
