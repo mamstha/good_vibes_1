@@ -361,7 +361,7 @@ width: 20%;
 
 
 
-.container.downloadapp{
+.container-fluid .downloadapp{
     background-color: #fff;
 }
 
