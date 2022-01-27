@@ -159,52 +159,52 @@ p{
     padding-bottom: 5%;
 }
 
-.container-fluid.ourfeature .row .card{
+.ourfeature .row .card{
     border: none;
     width: 100%;
     background-color: #fff;
     color: #c1bef5b3;
 }
 
-.container-fluid.ourfeature .row .card img{
+.ourfeature .row .card img{
     width: 20%;
     padding-bottom: 5%;
     margin: 0 auto;
 }
 
-.container-fluid.ourfeature .row .card .card-body .card-title{
+.ourfeature .row .card .card-body .card-title{
     padding-bottom: 5%;
     
 }
 
-.container-fluid.ourfeature .row .card .card-body .card-text {
+.ourfeature .row .card .card-body .card-text {
     width: 75%;
     margin: 0 auto;
     line-height: 32px;}
 
-.container-fluid.whychooseus{
+.whychooseus{
     background-color: #EDEEF2;
     margin-top: 5%;
     padding-bottom: 5%;
     
 }
 
-.container-fluid.whychooseus .container .row .whychooseus-img {
+.whychooseus .container .row .whychooseus-img {
     padding-right: 100px;
 }
 
-.container-fluid.whychooseus .whychooseus-text h2, p{
+.whychooseus .whychooseus-text h2, p{
     margin-bottom: 2%;
 }
 
-.container-fluid.whychooseus .whychooseus-text .btn{
+.whychooseus .whychooseus-text .btn{
     width: 200px;
     border: 3px solid #9797DE;
     border-radius: 32px;
     color: #9797DE;
 }
 
-.container-fluid.whychooseus .whychooseus-text .btn:hover{
+.whychooseus .whychooseus-text .btn:hover{
     background-color: #9797DE;
     border: 3px solid #9797DE;
     color: #fff;
@@ -250,6 +250,10 @@ p{
 .chooseyourplan{
     background-color: #EDEEF2;
 
+}
+
+.chooseyourplan .container{
+padding-bottom: 100px;
 }
 
 /* .chooseyourplan .container{

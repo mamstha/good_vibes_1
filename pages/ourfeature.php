@@ -1,4 +1,4 @@
-<div class="container-fluid ourfeature">
+<div class="ourfeature">
     <div class="container ">
         <div class="row text-center">
             <h2>Our Feature</h2>
