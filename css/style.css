@@ -191,7 +191,7 @@ p{
     color: #fff;
 }
 
-.container-fluid.mobilesection {
+.mobilesection {
    background-color: #fff;
    background-image: url("../img/utilities/mock\ copy.png");
    background-position: center;
@@ -199,78 +199,80 @@ p{
    background-size: 35%;
 }
 
-.container-fluid.mobilesection .container{
+.mobilesection .container{
     padding-bottom: 5%;
 }
 
-.container-fluid.mobilesection .container .row h3{
+.mobilesection .container .row h3{
     padding-top: 2%;
     padding-bottom: 2%;
 }
 
-.container-fluid.mobilesection .mobilesection-text .case-1, .case-2{
+.mobilesection .mobilesection-text .case-1, .case-2{
     margin-top: 176px;
 }
 
-.container-fluid.mobilesection .mobilesection-text .case-1{
+.mobilesection .mobilesection-text .case-1{
     text-align: right;
     padding-right: 100px;
 }
 
-.container-fluid.mobilesection .mobilesection-text .case-2{
+.mobilesection .mobilesection-text .case-2{
     text-align: left;
     padding-left: 100px;
 }
 
-.container-fluid.chooseyourplan{
+.chooseyourplan{
     background-color: #EDEEF2;
+
+}
+
+/* .chooseyourplan .container{
     background-image: url("../img/utilities/BG_G.V.png");
     background-repeat: no-repeat;
-    background-size: contain, cover;
+    background-position: top;
+    background-size: contain;
     
-}
+} */
 
-.container-fluid.chooseyourplan .container .row{
-    margin-bottom: 5%;
-}
 
-.container-fluid.chooseyourplan .container .row .cards{
+.chooseyourplan .container .row .cards{
     margin-right: 100px;
 }
-.container-fluid.chooseyourplan .container .row h2{
+.chooseyourplan .container .row h2{
     margin-top: 89px;
     margin-bottom: 97px;
 }
 
-.container-fluid.chooseyourplan .container .row .card{
+.chooseyourplan .container .row .card{
    
     border: none;
     border-radius: 16px;
 }
 
-.container-fluid.chooseyourplan .container .row .card .card-img-top{
+.chooseyourplan .container .row .card .card-img-top{
    text-align: center;
     width: 25%;
     margin: 0 auto;
     margin-top: 80px;
 }
 
-.container-fluid.chooseyourplan .container .row .card .card-body h4{
+.chooseyourplan .container .row .card .card-body h4{
     font-size: 30px;
     font-weight: 500;
        
  }
 
- .container-fluid .chooseyourplan .container .row .card .card-body .card-group{
+  .chooseyourplan .container .row .card .card-body .card-group{
    padding: 20px;
  }
 
- .container-fluid.chooseyourplan .container .row .card .card-body .card-group p{
+ .chooseyourplan .container .row .card .card-body .card-group p{
      font-size: 14px;
      color: #06051AB3;
  }
 
- .container-fluid.chooseyourplan .container .row .card .card-body .card-group i{
+ .chooseyourplan .container .row .card .card-body .card-group i{
      color: #8264FD;
      padding-right: 10px;
      padding-top: 10px;
@@ -278,12 +280,12 @@ p{
 
  }
 
- .container-fluid.chooseyourplan .container .row .card .card-body h3{
+ .chooseyourplan .container .row .card .card-body h3{
     margin:30px 0 30px 0;
     
 }
 
-.container-fluid.chooseyourplan .container .row .card .card-body .btn{
+.chooseyourplan .container .row .card .card-body .btn{
     width: 200px;
     border: 3px solid #9797DE;
     border-radius: 32px;
@@ -291,17 +293,17 @@ p{
     
 }
 
-.container-fluid.chooseyourplan .container .row .card .card-body .btn:hover{
+.chooseyourplan .container .row .card .card-body .btn:hover{
     background-color: #9797DE;
     border: 3px solid #9797DE;
     color: #fff;
 }
 
-.container-fluid.subscriber{
+.subscriber{
     background-color: #fff;
 }
 
-.container-fluid.subscriber .row img{
+.subscriber .container .row img{
     width: 100%;
     
 }
@@ -312,68 +314,171 @@ p{
 
 
 
-.container-fluid.subscriber .row .icon .icontext{
+.subscriber .container .row .icon .icontext{
     display: flex;    
 }
 
-.container-fluid.subscriber .row .icon .icontext h2{
+.subscriber .container  .row .icon .icontext h2{
     color: #9797DE;  
     margin-right: 80px;
 }
 
-.container-fluid.subscriber .row .icon .icontext  .icon-logo{
+.subscriber .container  .row .icon .icontext  .icon-logo{
     display: flex;
     margin-top: 115px;
 }
 
-.container-fluid.subscriber .row .icon .icontext  .icon-logo .android{
+.subscriber .container  .row .icon .icontext  .icon-logo .android{
     padding-right: 30px;
 }
 
-.container-fluid.subscriber .row .icon p{
+.subscriber .container  .row .icon p{
     font-size: 51px;
     font-weight: 500;
 }
 
-.container-fluid.subscriber .row .icon .fa-youtube{
+.subscriber .container  .row .icon .fa-youtube{
     margin-top: 120px;
 }
 
-.container-fluid.subscriber .row .icon .icontext img{
+.subscriber .container  .row .icon .icontext img{
 width: 20%;
 }
 
-.container-fluid.subscriber .row .icon .icontext i{
+.subscriber .container  .row .icon .icontext i{
     font-size: 51px;
     color: #9797DE;
 }
 
-.container-fluid.quote{
+.carousel{
+    background: #fff;
+}
+
+.carousel .carousel-inner .carousel-item img{
+}
+
+.quote{
+    background-color: #fff;
+}
+
+.quote .container{
     background-image: url("../img/utilities/quote\ icon.svg");
     background-position: left;
     background-repeat: no-repeat;
     background-color: #fff;
 }
 
-.container-fluid.quote .row .container{
+.quote .row .container{
     padding: 0 100px 0 100px;
 }
 
 
 
-.container-fluid.downloadapp{
+.downloadapp{
     background-color: #fff;
 }
 
-.container-fluid.downloadapp .container{
-    padding: 0px 100px 0 100px;
-    margin-top: 100px;
+.downloadapp .container{
+    padding-top: 100px;
 
 }
 
-.container-fluid.downloadapp .container .download-btn{
+.downloadapp .container .download-btn{
     display: flex;
 }
+
+.downloadapp .container .downloadapp-img img{
+    width: 100%;
+    margin-left: 261px;
+}
+
+.footercontent{
+    background: #8C8BD3;
+}
+
+.footercontent .container .row{
+    padding-top: 100px;
+}
+
+.footercontent .container .row p{
+    color: #DFE6E9;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.7;
+}
+
+.footercontent .container .row .right-text p{
+    color: #DFE6E9;
+    font-size: 40px;
+    line-height: 60px;
+    text-align: left;
+    opacity: 1;
+    margin-left: 50px;
+}
+
+.footercontent .container .row .form input::placeholder{
+    background: #8C8BD3;
+    color: #DFE6E9;   
+    padding: 20px;
+}
+
+.footercontent .container .row .form .form-control{
+    border: 1px solid #DFE6E9;
+    width: 70%;
+    padding: 10px 1px;
+    margin-top: 30px;
+    margin-bottom: 65px;
+
+}
+
+.footer{
+    background: #9697DE;
+    padding-bottom: 50px;
+}
+
+.footer .container .footer-left{
+    display: flex;
+}
+
+.footer .container .footer-left .footer-logo img{
+    width: 100%;
+}
+
+.footer .container .footer-left .footer-logo{
+    margin: 50px;
+}
+
+.footer .container .footer-left .footer-contents .footer-text p{
+    font-size: 18px;
+    color: #DFE6E9;
+    line-height: 24px;
+    margin-top: 55px;
+}
+
+.footer .container .footer-left .footer-contents .footer-link a{
+    color: #DFE6E9;
+    margin-right: 40px;
+
+}
+
+.footer .container .footer-social-icon{
+    display: flex;
+    text-align: right;
+    color: #DFE6E9;
+    justify-content: space-evenly;
+    margin-top: 70px;
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
 

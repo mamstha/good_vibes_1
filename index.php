@@ -21,10 +21,11 @@
 <?php include_once('pages/mobilesection.php'); ?>
 <?php include_once('pages/chooseyourplan.php'); ?>
 <?php include_once('pages/subscriber.php'); ?>
+<?php include_once('pages/carousel.php'); ?>
 <?php include_once('pages/quote.php'); ?>
 <?php include_once('pages/downloadapp.php'); ?>
 
-
+<?php include_once('includes/footercontent.php'); ?>
 <?php include_once('includes/footer.php'); ?>
 
 
