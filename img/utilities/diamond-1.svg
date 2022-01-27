@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="162.087" height="151.339" viewBox="0 0 162.087 151.339">
+  <g id="diamond" transform="translate(-155.947 -115.474)">
+    <g id="diamond-2" data-name="diamond" transform="translate(155.947 115.474)">
+      <path id="Path_4253" data-name="Path 4253" d="M96,72.075V26.488l50.652-9.512L197.3,26.488V72.075Z" transform="translate(-65.609 -16.976)" fill="#5bddfa"/>
+      <path id="Path_4254" data-name="Path 4254" d="M96,72.075l50.652-55.1,50.652,55.1Z" transform="translate(-65.609 -16.976)" fill="#6ce4ff"/>
+      <path id="Path_4255" data-name="Path 4255" d="M0,191.024l81.044,96.239,81.044-96.239Z" transform="translate(0 -135.925)" fill="#a1a1e8"/>
+      <path id="Path_4256" data-name="Path 4256" d="M96,191.024l50.652,96.239L197.3,191.024Z" transform="translate(-65.609 -135.925)" fill="#1ccff7"/>
+      <g id="Group_1227" data-name="Group 1227" transform="translate(0 9.512)">
+        <path id="Path_4257" data-name="Path 4257" d="M0,92.611,30.391,47.024V92.611Z" transform="translate(0 -47.024)" fill="#42d1f0"/>
+        <path id="Path_4258" data-name="Path 4258" d="M416,47.024V92.611h30.391Z" transform="translate(-284.304 -47.024)" fill="#42d1f0"/>
+      </g>
+    </g>
+  </g>
+</svg>
