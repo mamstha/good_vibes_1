@@ -1,4 +1,4 @@
-<div class="container-fluid mobilesection">
+<div class=" mobilesection">
      <div class="container">
         <div class="row">
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mobilesection-text">
