@@ -211,35 +211,39 @@ p{
 }
 
 .mobilesection {
-   background-color: #fff;
-   }
-
-.mobilesection .container{
-    padding-bottom: 5%;
-}
-
-.mobilesection .container .row h3{
-    padding-top: 2%;
-    padding-bottom: 2%;
-}
-
-
-
-.mobilesection .mobilesection-text .case-1, .case-2{
-    margin-top: 176px;
-    margin-left: 100px;
-
-}
-
-.mobilesection .mobilesection-text .case-1{
-    text-align: right;
-    padding-right: 100px;
-}
-
-.mobilesection .mobilesection-text .case-2{
-    text-align: left;
-    padding-left: 100px;
-}
+    background-color: #fff;
+    padding-top: 100px;
+ }
+ .mobilesection .container{
+     padding-bottom: 5%;
+ }
+ .mobilesection .container .row h3{
+     padding-top: 2%;
+     padding-bottom: 2%;
+     font-size: 30px;
+ }
+ .mobilesection .container .row img {
+     width: 100%;
+     padding-top: 10%;
+ }
+ .mobilesection .mobilesection-text .case-1, .case-2{
+     /* margin-top: 176px;
+     margin-left: 100px; */
+ }
+ .mobilesection .mobilesection-text .case-1{
+     text-align: right;
+     /* padding-right: 100px; */
+ }
+ .mobilesection .mobilesection-text .case-1:first-child {
+     min-height: 400px;
+ }
+ .mobilesection .mobilesection-text .case-2{
+     text-align: left;
+     /* padding-left: 100px; */
+ }
+ .mobilesection .mobilesection-text .case-2:first-child {
+     min-height: 400px;
+ }
 
 .chooseyourplan{
     background-color: #EDEEF2;
@@ -250,13 +254,25 @@ p{
 padding-bottom: 100px;
 }
 
-/* .chooseyourplan .container{
-    background-image: url("../img/utilities/BG_G.V.png");
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: contain;
+.chooseyourplan .container{
+   position: relative;
     
-} */
+}
+
+.chooseyourplan .plan-img1{
+    position: absolute;
+    width: 100%;
+    left: -630px;
+}
+
+.chooseyourplan .plan-img2{
+    position: absolute;
+    width: 100%;
+    right: -800px;
+    top: 235px;
+}
+
+
 
 
 .chooseyourplan .container .row .cards{
@@ -271,6 +287,10 @@ padding-bottom: 100px;
    position: relative;
     border: none;
     border-radius: 16px;
+}
+
+.chooseyourplan .container .row .card:hover{
+    box-shadow: 0px 7px 90px #9797DE;
 }
 
 .chooseyourplan .container .row .card .card-img-top{
@@ -405,11 +425,13 @@ width: 20%;
     color: #9797DE;
 }
 
-.carousel{
-    background: #fff;
+#carouselExampleDark{
+    background-color: #fff;
+    margin-top: 7%;
 }
 
 .carousel .carousel-inner .carousel-item img{
+    
 }
 
 .quote{

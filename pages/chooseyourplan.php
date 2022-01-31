@@ -2,6 +2,10 @@
     <div class="container">
         <div class="row">
             <h2 >Choose Your Plan</h2>
+
+            <img src="img/utilities/3d shape.png" alt="" class="plan-img1">
+
+            <img src="img\utilities\hands.png" class="plan-img2"alt="">
             
             <div class="col-xm-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 cards">
                 <div class="card text-center">
