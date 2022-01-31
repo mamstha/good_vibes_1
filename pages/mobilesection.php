@@ -13,7 +13,7 @@
                     </div>
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mobilesection-img">
-                    <img src="img/utilities/mock copy.png" alt="">
+                   <img src="img/utilities/mock copy.png" alt="">
                 </div>
                 <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 mobilesection-text">
                 <div class="case-2">

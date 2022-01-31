@@ -135,10 +135,10 @@ p{
     font-size: 15px;
     font-weight: 600;
 }
-/* .hero-banner .row img{
+.hero-banner .row .img3{
     margin-top: 65px;
     width: 100%;
-} */
+}
 
 .hero-banner .row .social-icon{
     display: flex;
@@ -210,13 +210,9 @@ p{
     color: #fff;
 }
 
-/* .mobilesection {
+.mobilesection {
    background-color: #fff;
-   background-image: url("../img/utilities/mock\ copy.png");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: 35%;
-} */
+   }
 
 .mobilesection .container{
     padding-bottom: 5%;
@@ -227,9 +223,7 @@ p{
     padding-bottom: 2%;
 }
 
-.mobilesection .container .row .mobilesection-img{
-    position: absolute;
-}
+
 
 .mobilesection .mobilesection-text .case-1, .case-2{
     margin-top: 176px;
@@ -274,7 +268,7 @@ padding-bottom: 100px;
 }
 
 .chooseyourplan .container .row .card{
-   
+   position: relative;
     border: none;
     border-radius: 16px;
 }
@@ -285,6 +279,37 @@ padding-bottom: 100px;
     margin: 0 auto;
     margin-top: 80px;
 }
+
+.chooseyourplan .container .row .card .card-img-top{
+    text-align: center;
+     width: 25%;
+     margin: 0 auto;
+     margin-top: 80px;
+ }
+
+ 
+ .chooseyourplan .container .row .card .top-btn{
+    width: 200px;
+    background-color: #9797DE;
+    border: 3px solid #9797DE;
+    border-radius: 32px;
+    color: #fff;
+    position: absolute;
+    right: 127px;
+    top: -20px;
+    font-size: 24px;
+    font-weight: bold;
+
+ }
+
+ .chooseyourplan .container .row .card .pricetag{
+    position: absolute;
+    width: 100px;
+    top: -20px;
+    right: 30px;
+ }
+
+
 
 .chooseyourplan .container .row .card .card-body h4{
     font-size: 30px;
@@ -319,6 +344,7 @@ padding-bottom: 100px;
     border: 3px solid #9797DE;
     border-radius: 32px;
     color: #9797DE;
+    margin-bottom: 50px;
     
 }
 
@@ -354,7 +380,7 @@ padding-bottom: 100px;
 
 .subscriber .container  .row .icon .icontext  .icon-logo{
     display: flex;
-    margin-top: 115px;
+    margin-top: 100px;
 }
 
 .subscriber .container  .row .icon .icontext  .icon-logo .android{
@@ -367,7 +393,7 @@ padding-bottom: 100px;
 }
 
 .subscriber .container  .row .icon .fa-youtube{
-    margin-top: 120px;
+    margin-top: 107px;
 }
 
 .subscriber .container  .row .icon .icontext img{
@@ -496,7 +522,7 @@ width: 20%;
     color: #DFE6E9;
     justify-content: space-evenly;
     margin-top: 70px;
-    
+    font-size: 24px;
 }
 
 

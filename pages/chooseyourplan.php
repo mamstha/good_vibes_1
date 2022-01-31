@@ -6,6 +6,10 @@
             <div class="col-xm-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 cards">
                 <div class="card text-center">
                     <img src="img\utilities\diamond.svg" alt="" class="card-img-top text-center">
+
+                    <img src="img/utilities/price tag.svg" alt="" class="pricetag">
+
+                    <img src="" alt="">
                     <div class="card-body">
                     
                         <h4 class="card-title text-center">
@@ -29,7 +33,7 @@
                         </p>
                         </div>
                         <h3>$4.99 <span class="month">/month</span></h3>
-                        <button type="button" class="btn btn-outline-primary">Try For Free</button>
+                        <button type="button" class="btn btn-outline-primary">Get Started</button>
 
                     </div>
                 </div>
@@ -37,6 +41,10 @@
             <div class="col-xm-4 col-sm-4 col-md-4 col-lg-4 col-xl-4 cards">
                 <div class="card text-center">
                     <img src="img\utilities\diamond.svg" alt="" class="card-img-top text-center">
+
+                    <img src="img/utilities/price tag.svg" alt="" class="pricetag">
+
+                       <button type="button" class="btn btn-primary top-btn">Save 40%</button>
                     <div class="card-body">
                         <h4 class="card-title text-center">
                         Most Popular
@@ -60,7 +68,7 @@
                             </p>
                         </div>
                         <h3>$35.88<span class="month">/year</span></h3>
-                        <button type="button" class="btn btn-outline-primary">Try For Free</button>
+                        <button type="button" class="btn btn-outline-primary">Get Started</button>
                     </div>
                 </div>
             </div>
