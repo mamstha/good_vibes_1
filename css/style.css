@@ -155,6 +155,15 @@ p{
     
 }
 
+.ourfeature .container{
+    position: relative;
+}
+
+.ourfeature .container .dotline{
+    position: absolute;
+    top: 0;
+}
+
 .ourfeature .container .row h2{
     padding-bottom: 5%;
 }
@@ -224,11 +233,10 @@ p{
  }
  .mobilesection .container .row img {
      width: 100%;
-     padding-top: 10%;
+     padding-top: 30%;
  }
  .mobilesection .mobilesection-text .case-1, .case-2{
-     /* margin-top: 176px;
-     margin-left: 100px; */
+     z-index: 99999;
  }
  .mobilesection .mobilesection-text .case-1{
      text-align: right;
@@ -243,6 +251,54 @@ p{
  }
  .mobilesection .mobilesection-text .case-2:first-child {
      min-height: 400px;
+ }
+
+ .mobilesection .case-1{
+    position: relative;
+ }
+
+ .mobilesection .case-1 .blur1{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    filter: blur(40px);
+    opacity: 1;
+    background: rgb(120,92,234);
+    background: radial-gradient(circle, #8264FD80 95%, #8264FD80 100%);    
+    right: 0;
+ }
+
+ .mobilesection .case-1 .blur2{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    filter: blur(40px);
+    opacity: 1;
+    background: rgb(191,187,143);
+    background: radial-gradient(circle, rgba(191,187,143,1) 95%, rgba(191,187,143,1) 100%);
+    right: 100px;
+ }
+
+ .mobilesection .case-2 .blur3{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    filter: blur(40px);
+    opacity: 1;
+    background: rgb(191,187,143);
+    background: radial-gradient(circle, rgba(191,187,143,1) 95%, rgba(191,187,143,1) 100%);
+    right: 645px;
+ }
+
+ .mobilesection .case-2 .blur4{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    filter: blur(40px);
+    opacity: 1;
+    background: rgb(120,92,234);
+    background: radial-gradient(circle, #8264FD80 95%, #8264FD80 100%);    
+    right: 620px;
  }
 
 .chooseyourplan{

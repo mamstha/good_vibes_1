@@ -1,7 +1,8 @@
 <div class="ourfeature">
     <div class="container ">
         <div class="row text-center">
-            <h2>Our Feature</h2>
+        <img src="img/utilities/dotted lines.svg" alt="" class="dotline">
+             <h2>Our Feature</h2>
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="card text-center">
                     <img src="img\utilities\lotus.svg" alt="" class="card-img-top text-center">
