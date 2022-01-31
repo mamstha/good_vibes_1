@@ -161,7 +161,29 @@ p{
 
 .ourfeature .container .dotline{
     position: absolute;
-    top: 0;
+    width: 100%;
+    top: 30px;
+}
+.ourfeature .container .dot1{
+    position: absolute;
+    width: 5%;
+    top: 153px;
+    left: 215px;
+}
+
+.ourfeature .container .dot2{
+    position: absolute;
+    top: 155px;
+    left: 650px;
+    width: 5%;
+
+}
+
+.ourfeature .container .dot3{
+    position: absolute;
+    top: 156px;
+    right: 205px;
+    width: 5%;
 }
 
 .ourfeature .container .row h2{
@@ -173,6 +195,8 @@ p{
     width: 100%;
     background-color: #fff;
     color: #c1bef5b3;
+    background: transparent;
+
 }
 
 .ourfeature .row .card img{

@@ -2,6 +2,9 @@
     <div class="container ">
         <div class="row text-center">
         <img src="img/utilities/dotted lines.svg" alt="" class="dotline">
+        <img src="img\utilities\Ellipse 18.svg" alt="" class="dot1">
+        <img src="img\utilities\Ellipse 18.svg" alt="" class="dot2">
+        <img src="img\utilities\Ellipse 18.svg" alt="" class="dot3">
              <h2>Our Feature</h2>
             <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <div class="card text-center">
