@@ -476,12 +476,14 @@ padding-bottom: 100px;
 }
 
 .subscriber .container .row img{
-    width: 100%;
+    width: 1200px;
+    margin-left: -300px;
     
 }
 
-.container-fluid .row .mobile-text h2{
-    padding-top: 100px;
+.subscriber .container .row .mobile-text h2{
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 
@@ -497,7 +499,7 @@ padding-bottom: 100px;
 
 .subscriber .container  .row .icon .icontext  .icon-logo{
     display: flex;
-    margin-top: 100px;
+    margin-top: 115px;
 }
 
 .subscriber .container  .row .icon .icontext  .icon-logo .android{
@@ -510,7 +512,7 @@ padding-bottom: 100px;
 }
 
 .subscriber .container  .row .icon .fa-youtube{
-    margin-top: 107px;
+    margin-top: 117px;
 }
 
 .subscriber .container  .row .icon .icontext img{
@@ -557,12 +559,29 @@ width: 20%;
 
 }
 
+.downloadapp .container h1{
+    font-size: 100px;
+    line-height: 122px;
+
+}
+
+
+.downloadapp .container h2{
+    font-size: 40px;
+    line-height: 49px;
+
+}
+
 .downloadapp .container .download-btn{
     display: flex;
 }
 
+.downloadapp .container .download-btn img {
+    width: 321px;
+}
+
 .downloadapp .container .downloadapp-img img{
-    width: 100%;
+    width: 600px;
 }
 
 .footercontent{
