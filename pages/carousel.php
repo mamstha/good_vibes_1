@@ -1,4 +1,4 @@
-<div class="carousel">
+<!-- <div class="carousel">
     <div class="container">
         <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
@@ -32,4 +32,4 @@
     
         </div>
     </div>
-</div>
+</div> -->
