@@ -85,6 +85,18 @@ p{
     color: #fff;
 }
 
+.navbar .container .w-100 .nav-item.active a{
+    padding-bottom: 20px;
+}
+
+.navbar .container .w-100 .nav-item .fas{
+    margin-left: 20px;
+    color: #9797DE;
+    font-size: 20px;
+}
+
+
+
 .hero-banner .container .hero-banner-text .first-content{
     position: relative;
 }

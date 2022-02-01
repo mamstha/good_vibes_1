@@ -10,6 +10,7 @@
 				<ul class="navbar-nav ms-auto">
 					<li class="nav-item active">
 						<a href="#index.php" class="nav-link ">Home</a>
+						<i class="fas fa-circle"></i>
 					</li>
 					<li class="nav-item">
 						<a href="#about" class="nav-link">About</a>
