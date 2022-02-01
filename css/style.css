@@ -98,9 +98,22 @@ p{
 
 .hero-banner .container .hero-banner-text .img2 {
     position: absolute;
-    width: 100%;
+    width: 10px;
+    height: 10px;
     top: 0px;
-    left: 1200px;
+    right: -580px;
+}
+
+
+
+.hero-banner .row .img3{
+    margin-top: 65px;
+    width: 100%;
+}
+
+.hero-banner .row .img3{
+    margin-top: 65px;
+    width: 100%;
 }
 
 .hero-banner .row .hero-banner-text h1{
@@ -135,10 +148,7 @@ p{
     font-size: 15px;
     font-weight: 600;
 }
-.hero-banner .row .img3{
-    margin-top: 65px;
-    width: 100%;
-}
+
 
 .hero-banner .row .social-icon{
     display: flex;
@@ -345,10 +355,17 @@ padding-bottom: 100px;
     left: -630px;
 }
 
-.chooseyourplan .plan-img2{
+/* .chooseyourplan .plan-img2{
     position: absolute;
     width: 100%;
     right: -800px;
+    top: 235px;
+} */
+
+.chooseyourplan .plan-img2{
+    position: absolute;
+    width: 800px;
+    right: -250px;
     top: 235px;
 }
 

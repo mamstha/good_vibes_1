@@ -16,13 +16,13 @@
                     </div>
                 </div>
 
-            <div class="img1">
-                <img src="img/utilities/scribble.svg" alt="">
-            </div>
+                <div class="img1">
+                    <img src="img/utilities/scribble.svg" alt="">
+                </div>
 
-            <div class="img2">
-                <img src="img/utilities/dots.svg" alt="">
-            </div>
+                <div class="img2">
+                    <img src="img/utilities/dots.svg" alt="">
+                </div>
 
                 <div class="social-icon">
                 
