@@ -1,0 +1,160 @@
+@media (max-width:360px){
+    .navbar {
+        margin-top: 25px;
+        
+    }
+    .navbar .container img{
+        width: 60%;
+    }
+    .hero-banner .row .hero-banner-text h1 {
+        margin-top: 25px;
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .hero-banner .row .hero-banner-text p {
+        margin-top: 52px;
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .hero-banner .row .hero-banner-text .btn-group .btn {
+        width: 180px;
+        margin-left: 80px;
+    }
+
+    .hero-banner .row .social-icon {
+        margin-left: 130px;
+    }
+    .hero-banner .container .img1, .img2{
+        display: none;
+    }
+
+    .ourfeature .container .dotline {
+        display: none;
+    }
+
+    .ourfeature .container .row h2 {
+        font-size: 32px;
+    }
+
+    .ourfeature .row .card{
+        border: 1px solid;
+        margin-bottom: 10px;
+    }
+
+    .ourfeature .row .card img {
+        padding-top: 10px;
+    }
+
+    .ourfeature .row .card .card-body .card-title {
+        font-size: 24px;
+    }
+
+    .ourfeature .row .card .card-body .card-text {
+        line-height: 24px;
+        font-size: 16px;
+        margin-bottom: 25px;
+    }
+
+    .whychooseus .container .row .whychooseus-img {
+        padding-right: 0;
+    }
+
+    .whychooseus .whychooseus-text h2{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .whychooseus .whychooseus-text p{
+        font-size: 16px;
+        text-align: left;
+        line-height: 24px;
+    }
+
+    .whychooseus .whychooseus-text .btn {
+        width: 150px;
+        margin-left: 90px;
+    }
+
+    .mobilesection .case-1 .blur1, .blur2 {
+        display: none;
+    }
+
+    .mobilesection .container .row h3 {
+        font-size: 24px;
+        text-align: center;
+        margin-top: -20px;
+    }
+
+    .mobilesection .container .row p {
+        font-size: 16px;
+        text-align: left;
+        line-height: 24px;
+    }
+
+    .mobilesection .mobilesection-text .case-1:first-child {
+        min-height: 200px;
+    }
+    .mobilesection .mobilesection-text .case-2:first-child {
+        min-height: 200px;
+    }
+
+    .chooseyourplan .container .row .card {
+        margin-top: 50px;
+    }
+
+    .chooseyourplan .container .row .card .pricetag {
+        width: 50px;
+        top: -10px;
+    }
+
+    .chooseyourplan .container .row .card .card-body .card-group {
+        padding: 0px;
+        text-align: left;
+        display: flex;
+    }
+
+    .chooseyourplan .container .row .card .card-img-top {
+        text-align: center;
+        width: 20%;
+        margin-top: 35px;
+    }
+
+    .chooseyourplan .container .row h2 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 32px;
+    }
+    .chooseyourplan .plan-img2{
+        display: none;
+    }
+
+    .subscriber .container .row .mobile-text h2 {
+        font-size: 32px;
+        line-height: 48px;
+    }
+    .subscriber .container .row .icon .icontext .icon-logo{
+        display: flex;
+        margin-top: 0px;
+    }
+    .subscriber .container .row .icon .icontext h2 {
+        color: #9797DE;
+        margin-right: 80px;
+        margin-top: 0px;
+    }
+
+    .subscriber .container .row img {
+        width: 100%;
+    }
+
+    .downloadapp .container .download-btn{
+        display: inline;
+    }
+
+    .downloadapp .container .downloadapp-img img{
+        width: 100%;
+    }
+
+    
+}
