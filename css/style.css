@@ -539,6 +539,8 @@ width: 20%;
 
 .carousel-div{
     background-color: #fff;
+    padding-bottom: 100px;
+    padding-top: 100px;
 }
 .carousel-div .container {
     min-height: 500px;
@@ -627,17 +629,18 @@ width: 100%;
 
 }
 
-.downloadapp .container h1{
+.downloadapp .container h1 {
     font-size: 100px;
     line-height: 122px;
-
+    padding-bottom: 80px;
 }
 
 
 .downloadapp .container h2{
     font-size: 40px;
     line-height: 49px;
-
+    font-weight: normal;
+    padding-bottom: 64px;
 }
 
 .downloadapp .container .download-btn{
